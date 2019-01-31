@@ -1,0 +1,11 @@
+/Users/faltherr/Desktop/BioFire/C# Examples/NumberPredictor/NumberPredictor/bin/Debug/netcoreapp2.1/NumberPredictor.deps.json
+/Users/faltherr/Desktop/BioFire/C# Examples/NumberPredictor/NumberPredictor/bin/Debug/netcoreapp2.1/NumberPredictor.runtimeconfig.json
+/Users/faltherr/Desktop/BioFire/C# Examples/NumberPredictor/NumberPredictor/bin/Debug/netcoreapp2.1/NumberPredictor.runtimeconfig.dev.json
+/Users/faltherr/Desktop/BioFire/C# Examples/NumberPredictor/NumberPredictor/bin/Debug/netcoreapp2.1/NumberPredictor.dll
+/Users/faltherr/Desktop/BioFire/C# Examples/NumberPredictor/NumberPredictor/bin/Debug/netcoreapp2.1/NumberPredictor.pdb
+/Users/faltherr/Desktop/BioFire/C# Examples/NumberPredictor/NumberPredictor/obj/Debug/netcoreapp2.1/NumberPredictor.csprojAssemblyReference.cache
+/Users/faltherr/Desktop/BioFire/C# Examples/NumberPredictor/NumberPredictor/obj/Debug/netcoreapp2.1/NumberPredictor.csproj.CoreCompileInputs.cache
+/Users/faltherr/Desktop/BioFire/C# Examples/NumberPredictor/NumberPredictor/obj/Debug/netcoreapp2.1/NumberPredictor.AssemblyInfoInputs.cache
+/Users/faltherr/Desktop/BioFire/C# Examples/NumberPredictor/NumberPredictor/obj/Debug/netcoreapp2.1/NumberPredictor.AssemblyInfo.cs
+/Users/faltherr/Desktop/BioFire/C# Examples/NumberPredictor/NumberPredictor/obj/Debug/netcoreapp2.1/NumberPredictor.dll
+/Users/faltherr/Desktop/BioFire/C# Examples/NumberPredictor/NumberPredictor/obj/Debug/netcoreapp2.1/NumberPredictor.pdb

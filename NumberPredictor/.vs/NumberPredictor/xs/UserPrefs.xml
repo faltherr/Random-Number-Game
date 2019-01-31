@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{1654CC18-2242-47B3-BFE8-980E89E49889}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NumberPredictor/Program.cs">
+    <Files>
+      <File FileName="NumberPredictor/Program.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.NumberPredictor FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
