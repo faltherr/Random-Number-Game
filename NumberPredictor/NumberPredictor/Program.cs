@@ -11,9 +11,12 @@ namespace NumberPredictor
         {
             string name = "Forest Altherr";
 
-            //Add a new line with hello world
-            Console.WriteLine(name);
+            int age = 30;
 
+            //Add a new line with hello world
+            //Console.WriteLine("Hello " + name + " is " + age);
+
+            Console.WriteLine("{0} is {1}", name, age);
         }
     }
 }
