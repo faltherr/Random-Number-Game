@@ -9,28 +9,11 @@ namespace NumberPredictor
         //Entry Point Method
         static void Main(string[] args)
         {
-            //Set app vars
-            string appName = "Number Predictor";
-            string appVersion = "0.0.1";
-            string appAuthor = "Forest Altherr";
+            // Call this function to display abstracted app info
+            GetAppInfo();
 
-            //Change text color
-            Console.ForegroundColor = ConsoleColor.Magenta;
-
-            //Write out app information
-            Console.WriteLine("{0}: Version {1} by {2}", appName, appVersion, appAuthor);
-
-            //Reset text color
-            Console.ResetColor();
-
-            // Ask users name
-            Console.WriteLine("What is your name?");
-
-            // Get user input
-            string inputName = Console.ReadLine();
-
-            //Return user input
-            Console.WriteLine("Hello {0}, let's play a game", inputName);
+            // This function will greet the user
+            GreetUser();
 
             while (true)
             {
@@ -59,14 +42,8 @@ namespace NumberPredictor
                     // Confirm user input is a number
                     if (!int.TryParse(numberInput, out guess))
                     {
-                        //Change text color
-                        Console.ForegroundColor = ConsoleColor.Red;
-
-                        //Tell user the input format is incorrect
-                        Console.WriteLine("Please enter a number");
-
-                        //Reset text color
-                        Console.ResetColor();
+                        //This prints an error message to the console if input is not an integer
+                        PrintColorMessage(ConsoleColor.Red, "Please enter a valid number.");
 
                         //Proceed if conditional passes
                         continue;
@@ -78,29 +55,13 @@ namespace NumberPredictor
                     //Match the guess to the correct number
                     if (guess != correctNumber)
                     {
-                        //Change text color
-                        Console.ForegroundColor = ConsoleColor.Red;
-
-                        //Error message for wrong number
-                        Console.WriteLine("Wrong number, try again!");
-
-                        //Reset text color
-                        Console.ResetColor();
+                        //This prints an error message to the console if the number is incorrect
+                        PrintColorMessage(ConsoleColor.Red, "Wrong number, try again!");
                     }
                 }
 
-
-                    //Output success message
-
-                    //Change text color
-                    Console.ForegroundColor = ConsoleColor.Green;
-
-                    //Output success message
-                    Console.WriteLine("You are correct!");
-
-                    //Reset text color
-                    Console.ResetColor();
-
+                //Output success message
+                PrintColorMessage(ConsoleColor.Green, "You win!");
 
                     //Ask user to continue
                     Console.WriteLine("Do you want to play again? [Y or N]");
@@ -120,5 +81,46 @@ namespace NumberPredictor
 
                 }
             }
+        //Get and display app info
+        static void GetAppInfo() {
+            //Set app vars
+            string appName = "Number Predictor";
+            string appVersion = "0.0.1";
+            string appAuthor = "Forest Altherr";
+
+            //Change text color
+            Console.ForegroundColor = ConsoleColor.Magenta;
+
+            //Write out app information
+            Console.WriteLine("{0}: Version {1} by {2}", appName, appVersion, appAuthor);
+
+            //Reset text color
+            Console.ResetColor();
         }
+
+        // Ask user name and greet
+        static void GreetUser(){
+            // Ask users name
+            Console.WriteLine("What is your name?");
+
+            // Get user input
+            string inputName = Console.ReadLine();
+
+            //Return user input
+            Console.WriteLine("Hello {0}, let's play a game", inputName);
+        }
+
+        //Print color message
+        static void PrintColorMessage(ConsoleColor color, string message){
+            //Change text color
+            Console.ForegroundColor = color;
+
+            //Tell user the input format is incorrect
+            Console.WriteLine(message);
+
+            //Reset text color
+            Console.ResetColor();
+        }
+
+    }
     }
