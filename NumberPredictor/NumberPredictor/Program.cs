@@ -9,7 +9,8 @@ namespace NumberPredictor
         //Entry Point Method
         static void Main(string[] args)
         {
-            string name = "Forest Altherr"
+            string name = "Forest Altherr";
+
             //Add a new line with hello world
             Console.WriteLine(name);
 
